@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/CompCom/hmrepo/master/canoe_save_compress.hmod/
+7zr
+clover-canoe-shvc-wr-scompress
+compress_message0.raw.gz
+compress_message1.raw.gz
+compress_message2.raw.gz
+decompress-canoe-saves
+install
+pacbd_move_compress_script
+readme.txt
+S8101compress_saves
+snes-save-compress
+uninstall
+wait-for-exit

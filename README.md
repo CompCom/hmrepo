@@ -1,1 +1,1 @@
-# hmrepo
+# CompCom's hmod Repo

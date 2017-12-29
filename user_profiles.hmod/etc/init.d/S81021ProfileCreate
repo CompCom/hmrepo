@@ -1,0 +1,10 @@
+#!/bin/sh
+
+[ "$1" == "start" ] || exit 0
+
+source /etc/preinit
+script_init
+
+/etc/profiles/profileselect --create
+rm "$rootfs/etc/init.d/S81021ProfileCreate"
+exit 0

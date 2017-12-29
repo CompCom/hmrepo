@@ -1,0 +1,5 @@
+transfer_default
+chmod +x "$rootfs/etc/init.d/S81021ProfileCreate"
+chmod +x "$rootfs/etc/init.d/S8102ProfileSelect"
+chmod +x "$rootfs/etc/profiles/profileselect"
+return 1

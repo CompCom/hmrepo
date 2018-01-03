@@ -3,7 +3,7 @@
 source /etc/preinit
 script_init
 
-profileFolder="$rootfs/etc/profiles/$1"
+profileFolder="$rootfs/etc/profiles/data/$1"
 
 # Check for usb mod
 if [ -d "$mountpoint/media/$modname/saves/" ]; then

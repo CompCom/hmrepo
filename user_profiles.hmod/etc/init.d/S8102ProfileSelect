@@ -2,4 +2,8 @@
 
 [ "$1" == "start" ] || exit 0
 
-exec /etc/profiles/profileselect 2> /tmp/profile_select_log
+source /etc/preinit
+script_init
+
+cd "$rootfs/etc/profiles/bin/"
+exec ./profileselect 2> /tmp/profile_select_log

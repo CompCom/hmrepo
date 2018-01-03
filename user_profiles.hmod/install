@@ -1,7 +1,7 @@
 transfer_default
 chmod +x "$rootfs/etc/init.d/S81021ProfileCreate"
 chmod +x "$rootfs/etc/init.d/S8102ProfileSelect"
-chmod +x "$rootfs/etc/profiles/profileselect"
-chmod +x "$rootfs/etc/profiles/CreateProfile.sh"
-chmod +x "$rootfs/etc/profiles/MountProfile.sh"
+chmod +x "$rootfs/etc/profiles/bin/profileselect"
+chmod +x "$rootfs/etc/profiles/bin/CreateProfile.sh"
+chmod +x "$rootfs/etc/profiles/bin/MountProfile.sh"
 return 1

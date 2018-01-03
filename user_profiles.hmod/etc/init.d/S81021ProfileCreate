@@ -5,6 +5,7 @@
 source /etc/preinit
 script_init
 
-/etc/profiles/profileselect --create
+cd "$rootfs/etc/profiles/bin"
+./profileselect --create
 rm "$rootfs/etc/init.d/S81021ProfileCreate"
 exit 0

@@ -4,4 +4,5 @@ chmod +x "$rootfs/etc/init.d/S8102ProfileSelect"
 chmod +x "$rootfs/etc/profiles/bin/profileselect"
 chmod +x "$rootfs/etc/profiles/bin/CreateProfile.sh"
 chmod +x "$rootfs/etc/profiles/bin/MountProfile.sh"
+[ -d "$mountpoint/media/$modname/" ] && touch "$rootfs/etc/profiles/bin/usb" && cfg_usb_rw='y'
 return 1

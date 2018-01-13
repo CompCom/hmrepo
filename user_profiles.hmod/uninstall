@@ -1,0 +1,3 @@
+rm -rf "$rootfs/etc/profiles/"
+rm "$rootfs/etc/init.d/S8102ProfileSelect"
+[ -f "rootfs/etc/init.d/S81021ProfileCreate" ] && rm "rootfs/etc/init.d/S81021ProfileCreate"
